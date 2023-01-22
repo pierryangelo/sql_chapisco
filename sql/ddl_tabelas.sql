@@ -1,9 +1,3 @@
-drop table clientes;
-drop table vendedores;
-drop table produtos;
-drop table itens_notas_fiscais;
-drop table notas_fiscais;
-
 create table clientes
 ( 
     cpf varchar(11),
