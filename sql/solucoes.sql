@@ -42,7 +42,7 @@ SELECT c.nome, sum(inf.preco) AS total FROM itens_notas_fiscais inf
         ON nf.cpf = c.cpf
     GROUP BY c.nome
     HAVING sum(inf.preco) > 100
-    ORDER BY total;
+    ORDER BY total DESC;
 
 
 
